@@ -24,7 +24,7 @@
 
         setTimeout(() => {
             submit.click()
-        }, 2000)
+        }, 500)
     });
     
     function setNativeValue(element, value) {
