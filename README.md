@@ -7,7 +7,7 @@ This script assumes you have logged in to https://goerlifaucet.com/
 ## Installation
 
 1. Install Tampermonkey via https://www.tampermonkey.net/ or Chrome extensions page
-2. Navigate to this [script](goerli-faucet.user.js) to install the script
+2. Navigate to this [script](goerli-faucet.user.js) to install
 3. Open the TamperMonkey extension, click dashboard, edit the newly added script (icon on far-right next to trash)
    - In Chrome, click extensions
    - Select more options by clicking the three little dots next to TamperMonkey
