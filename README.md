@@ -2,7 +2,8 @@
 Tampermonkey script to get Goerli Eth from faucet
 
 ## Prerequisites
-This script assumes you have logged in to https://goerlifaucet.com/ 
+- This script assumes you have logged in to https://goerlifaucet.com/ 
+- This script assumes you have Chrome browser installed
 
 ## Installation
 
