@@ -21,7 +21,7 @@ This script assumes you have logged in to https://goerlifaucet.com/
 6. Log into https://goerlifaucet.com/ with your wallet
 
 
-## Automation setup
+## Automation setup (MacOS only)
 1. (If required) Setup bin and log directories
    - Create bin directory it by ```mkdir ~/.bin```
    - Create it by ```mkdir ~/.log```
