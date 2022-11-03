@@ -1,2 +1,3 @@
 MAILTO=""
 0 0 * * * ~/bin/automate_geth.sh >> ~/log/out_automate_geth.txt 2>&1
+#the second 0 outlines the hour in UTC to run the script. 00am UTC = 11am AEDT = 8pm EST
