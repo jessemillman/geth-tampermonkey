@@ -13,28 +13,30 @@ This script assumes you have logged in to https://goerlifaucet.com/
   3b. Select more options by clicking the three little dots next to TamperMonkey
   3c. Select Options
   3d. Click + in the top right to add a new script
+  ![TamperMoney options] (/tempermonkey_options.png)
 4. Update your target wallet on line 19
 5. Navigate to https://goerlifaucet.com/ 
 6. Log into https://goerlifaucet.com/ with your wallet
 
 
 ## Automation setup
-1. Create script
-  1a. Open Terminal
-  1b. ```cd ~/.bin``` if one doesn't exist then create it by ```mkdir ~/.bin```
-  1b. ```cd ~/.log``` if one doesn't exist then create it by ```mkdir ~/.log```
-  1b. type "vi automate_geth.sh". Press return
-  1b. press "i"
-  1c. copy and paste the script from https://github.com/jessemillman/geth-tampermonkey/raw/main/automate_geth.sh
-  1d. press ESC
-  1e. type ":wq". Press return
+1. (If required) Setup bin and log directories
+   - Create bin directory it by ```mkdir ~/.bin```
+   - Create it by ```mkdir ~/.log```
+2. Create automation script
+   - Open Terminal
+   - Type "vi automate_geth.sh". Press return
+   - Press "i"
+   - Copy and paste the script from https://github.com/jessemillman/geth-tampermonkey/raw/main/automate_geth.sh
+   - Press ESC
+   - Type ":wq". Press return
 2. Setup cronjob (Note. this will run the automate_geth.sh script daily at 0:0:0 UTC. If you want a different time of day adjust to your preferred settings https://crontab.guru/ can help. Also if you store your scripts in a different directory you will need to modify the path that is referenced)
-  2a. Open Terminal
-  2b. type "env editor=vi crontab -e". Press return
-  2c. press "i"
-  2d. copy and paste the script from https://github.com/jessemillman/geth-tampermonkey/raw/main/crontab.example
-  2e. press ESC
-  2d. type ":wq". Press return
+   - Open Terminal
+   - Type "env editor=vi crontab -e". Press return
+   - Press "i"
+   - Copy and paste the script from https://github.com/jessemillman/geth-tampermonkey/raw/main/crontab.example
+   - Press ESC
+   - Type ":wq". Press return
 
 ##Common Issues
 1. You may get an "Operation not permitted" error when trying to run the automate_geth.sh script via crontab. Read https://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/ to fix this on macos
