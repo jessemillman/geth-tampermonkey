@@ -37,5 +37,4 @@ Automation
   2d. type ":wq". Press return
 
 Common Issues
-1. You may get an "Operation not permitted" error when trying to run the automate_geth.sh script. Read https://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/ to fix this on macos
-
+1. You may get an "Operation not permitted" error when trying to run the automate_geth.sh script via crontab. Read https://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/ to fix this on macos
