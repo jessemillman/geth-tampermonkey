@@ -14,7 +14,7 @@ This script assumes you have logged in to https://goerlifaucet.com/
    - Select Options
    - Click + in the top right to add a new script
 
-  ![TamperMoney options](tempermonkey_options.png)
+  ![TamperMonkey options](tampermonkey_options.png)
   
 4. Update your target wallet on line 19
 5. Navigate to https://goerlifaucet.com/ 
@@ -41,7 +41,7 @@ This script assumes you have logged in to https://goerlifaucet.com/
    - Type ":wq". Press return
 
 ## Common Issues
-1. You may get an "Operation not permitted" error when trying to run the automate_geth.sh script via crontab. Read https://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/ to fix this on macos
+1. You may get an "Operation not permitted" error when trying to run the automate_geth.sh script via crontab. Read [this article](https://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/) to fix this on macos
 
 
 ## Usage
