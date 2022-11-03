@@ -15,6 +15,7 @@ This script assumes you have logged in to https://goerlifaucet.com/
    - Click + in the top right to add a new script
 
   ![TamperMoney options](/tempermonkey_options.png)
+  
 4. Update your target wallet on line 19
 5. Navigate to https://goerlifaucet.com/ 
 6. Log into https://goerlifaucet.com/ with your wallet
