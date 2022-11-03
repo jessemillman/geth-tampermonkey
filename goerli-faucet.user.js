@@ -16,7 +16,7 @@
   
     window.addEventListener("load", function (event) {
       console.log("running");
-      var address = "0xD1bFeb2e62078eBbF4B7aB26461E0af781078631"; // update with your wallet address
+      var address = "0x190B646C385023E707765fDa54e8dEef33C3a66a"; // update with your wallet address
       var input = document.querySelector(
         "#root > div.alchemy-app > div.alchemy-app-content-container > div:nth-child(2) > div.row > div > span > div:nth-child(1) > div.col-md-9.col-sm-12 > input"
       );
