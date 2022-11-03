@@ -1,0 +1,2 @@
+MAILTO=""
+0 0 * * * ~/bin/automate_geth.sh >> ~/log/out_automate_geth.txt 2>&1
