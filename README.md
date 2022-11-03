@@ -9,10 +9,10 @@ This script assumes you have logged in to https://goerlifaucet.com/
 1. Install Tampermonkey via https://www.tampermonkey.net/ or Chrome extensions page
 2. Navigate to: https://github.com/jessemillman/geth-tampermonkey/raw/main/goerli-faucet.user.js to install the script
 3. Open the TamperMonkey extension, click dashboard, edit the newly added script (icon on far-right next to trash)
-  3a. In Chrome, click extensions
-  3b. Select more options by clicking the three little dots next to TamperMonkey
-  3c. Select Options
-  3d. Click + in the top right to add a new script
+   - In Chrome, click extensions
+   - Select more options by clicking the three little dots next to TamperMonkey
+   - Select Options
+   - Click + in the top right to add a new script
   ![TamperMoney options] (/tempermonkey_options.png)
 4. Update your target wallet on line 19
 5. Navigate to https://goerlifaucet.com/ 
@@ -38,7 +38,7 @@ This script assumes you have logged in to https://goerlifaucet.com/
    - Press ESC
    - Type ":wq". Press return
 
-##Common Issues
+## Common Issues
 1. You may get an "Operation not permitted" error when trying to run the automate_geth.sh script via crontab. Read https://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/ to fix this on macos
 
 
