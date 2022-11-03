@@ -27,16 +27,18 @@ This script assumes you have logged in to https://goerlifaucet.com/
    - Create it by ```mkdir ~/.log```
 2. Create automation script
    - Open Terminal
+   - Navigate to .bin folder ```cd ~/.bin```
    - Type "vi automate_geth.sh". Press return
    - Press "i"
    - Copy and paste the script from [here](automate_geth.sh)
    - Press ESC
    - Type ":wq". Press return
-2. Setup cronjob (Note. this will run the automate_geth.sh script daily at 0:0:0 UTC. If you want a different time of day adjust to your preferred settings https://crontab.guru/ can help. Also if you store your scripts in a different directory you will need to modify the path that is referenced)
+2. Setup cronjob (Note. this will run the automate_geth.sh script daily at 0:0:0 UTC. If you want a different time of day adjust to your preferred settings https://crontab.guru/ can help. Also if you store your scripts in a different directory to ~/.bin you will need to modify the path that is referenced)
    - Open Terminal
    - Type "env editor=vi crontab -e". Press return
    - Press "i"
    - Copy and paste the script from [here](crontab.example)
+   - Set the second 0 in the script to a time of day you expect your laptop to be on (0 = 00am UTC / 11am AEDT / 8pm EST)
    - Press ESC
    - Type ":wq". Press return
 
