@@ -7,13 +7,14 @@ This script assumes you have logged in to https://goerlifaucet.com/
 ## Installation
 
 1. Install Tampermonkey via https://www.tampermonkey.net/ or Chrome extensions page
-2. Navigate to: https://github.com/jessemillman/geth-tampermonkey/raw/main/goerli-faucet.user.js to install the script
+2. Navigate to this [script](/goerli-faucet.user.js) to install the script
 3. Open the TamperMonkey extension, click dashboard, edit the newly added script (icon on far-right next to trash)
    - In Chrome, click extensions
    - Select more options by clicking the three little dots next to TamperMonkey
    - Select Options
    - Click + in the top right to add a new script
-  ![TamperMoney options] (/tempermonkey_options.png)
+
+  ![TamperMoney options](/tempermonkey_options.png)
 4. Update your target wallet on line 19
 5. Navigate to https://goerlifaucet.com/ 
 6. Log into https://goerlifaucet.com/ with your wallet
