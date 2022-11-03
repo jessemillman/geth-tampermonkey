@@ -7,14 +7,14 @@ This script assumes you have logged in to https://goerlifaucet.com/
 ## Installation
 
 1. Install Tampermonkey via https://www.tampermonkey.net/ or Chrome extensions page
-2. Navigate to this [script](/goerli-faucet.user.js) to install the script
+2. Navigate to this [script](goerli-faucet.user.js) to install the script
 3. Open the TamperMonkey extension, click dashboard, edit the newly added script (icon on far-right next to trash)
    - In Chrome, click extensions
    - Select more options by clicking the three little dots next to TamperMonkey
    - Select Options
    - Click + in the top right to add a new script
 
-  ![TamperMoney options](/tempermonkey_options.png)
+  ![TamperMoney options](tempermonkey_options.png)
   
 4. Update your target wallet on line 19
 5. Navigate to https://goerlifaucet.com/ 
@@ -29,14 +29,14 @@ This script assumes you have logged in to https://goerlifaucet.com/
    - Open Terminal
    - Type "vi automate_geth.sh". Press return
    - Press "i"
-   - Copy and paste the script from https://github.com/jessemillman/geth-tampermonkey/raw/main/automate_geth.sh
+   - Copy and paste the script from [here](automate_geth.sh)
    - Press ESC
    - Type ":wq". Press return
 2. Setup cronjob (Note. this will run the automate_geth.sh script daily at 0:0:0 UTC. If you want a different time of day adjust to your preferred settings https://crontab.guru/ can help. Also if you store your scripts in a different directory you will need to modify the path that is referenced)
    - Open Terminal
    - Type "env editor=vi crontab -e". Press return
    - Press "i"
-   - Copy and paste the script from https://github.com/jessemillman/geth-tampermonkey/raw/main/crontab.example
+   - Copy and paste the script from [here](crontab.example)
    - Press ESC
    - Type ":wq". Press return
 
